@@ -1,31 +1,95 @@
-<<!DOCTYPE html>
-  <html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Resume</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+<style>
+  div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+  font-family: Gabriola;
+}
+body{
+  color: white
+}
+p{
+  font-family: Gabriola;
+  font-size: 20
+}
+hr{
+  border: 3px dashed white;
+  border-radius: 5px;
+  border-width: thick;
+}
+#myDIV {
+  width: 300px;
+  height: 300px;
+  background: white;
+  animation: mymove 5s infinite;
+  align-items: stretch;
+  display: inherit;
+}
 
-  <body style="background-color:Khaki;text-align:center;color:black;">
+@keyframes mymove {
+  from {background-color:grey;}
+  to {background-color: white; }
+}
+img.me{
+align-items: center;
+height: 200px;
+width: 200px;
+padding-left: 42%;
+border-radius: 100px;
+}
+img.icon{
+  padding-left: 20px
+}
+  </style>
+</head>
 
-    <h1 style = "color:Brown;">
-      <CENTER> <strong> RESUME </strong></CENTER>
-    </h1>
+<body background="back.jpg">
+  <font size="30" face="Gabriola"><strong>
+      <center><u>Curriculum Vitae</u></center>
+    </strong></font>
+  <hr>
+  <font size=20 face="Gabriola">
+    <center><strong>About Me</strong></center>
+  </font>
+  <hr><br>
+  <img class="me "src="me.jpg" >
+  <span><font size=6 face="Gabriola"><b>
+      <center><u>My name is Divya,<br> and I am a Undergraduate student in the<br>
+          University of Delhi, Hansraj College</u>
+    </b></center>
+
+    <p><center>Objective: <br>I am currently persuing my graduation in Bsc.(Hons)Mathematics.
+      I have the interest and natural instinct which will allow me to do progress in this field. I have
+      firm determination and enthusiasm to excel in my field. I want to benefit people with my ideas and hard work.<center></p>
+
+
+    <a href="info.html">
+      <img class="icon"src="personal.png" height=70 width=70 style="padding-right:50px; padding-left:200px;">
+    </a>
+    <a href=" qualifications.html">
+      <img src="edu.png" height=70 width=70 style="padding-right:50px">
+    </a>
+    <a href="Contact_Info.html">
+      <img src="cont.png" height=70 width=70 style="padding-right:50px">
+    </a>
+    <a href="">
+      <img src="hobbies.jpg" height=70 width=70 style="padding-right:50px">
+    </a>
+    <a href="qualifications.html">
+      <img src="edu.png" height=70 width=70 style="padding-right:50px">
+    </a>
+    <br>
     <hr>
-    <a href="https://www.google.com/?client=safari"> Search Google </a>
-    <h2>
-      <center>
-        <hr> <hr> <br>
-  <h3 style="color:brown;">  <b>Personal information</b> </h3> <br>
-        <a href="info.html">Personal Information</a><br>
-        <hr> <br>
- <h3 style="color:brown;">  <b> Qualifications</b> </h3> <br>
-        <a href="qualifications.html">Qualification</a><br>
-        <hr> <br>
- <h3 style="color:brown;">  <b>Contact information</b> </h3> <br>
-        <a href="Contact_Info.html">Contact information</a>
-      </center>
-    </h2>
-  </body>
+  </font>
+</span>
+</body>
 
-  </html>
+</html>
